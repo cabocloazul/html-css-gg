@@ -1,0 +1,23 @@
+CURSO HTML5 e CSS3 
+
+MÓDULO 1 - Repositórios do Curso --> GitHub.com/gustavoguanabara
+                                     gustavoguanabara.github.io
+
+
+AULA 20 ---> Hierarquia de Títulos
+
+As tags header vão de 1 a 6( h1,h2,h3,h4,h5,h6) e a sequencia representa uma hierarquia, não sendo usado para modificar tamanho de letra ou deixar as letras mais escuras e sim para determinar uma hierarquia de títulos e subtítulos, assunto principal e assuntos dentro de assuntos, é usado para entender os processos de hierarquia dos assuntos dentro de um texto e não por motivos estéticos para aumentar, diminuir letras usamos #css. Inclusive, é possível que o texto tenha dois <h1> e outros <h2> dentro deles e <h3> dentro do <h2> e assim por diante, você não pula de <h1> para <h6>, é uma sequencia hierárquica que enquadra títulos dentro da sua ordem de importância no texto.
+
+AULA 22 ---> Itálico e Negrito 
+
+Para deixar um termo em negrito/ em destaque e em itálico/dar ênfase podemos usar tags mais antigas como <i> (para itálico) ou <b> (para deixar em negrito) no entanto o recomendado é usar as tags <strong> e <en> o resultado estético é o mesmo no entanto html5 é considerada uma linguagem de marcação por semântica, ou seja, as tags tem um sentido, o significado é mais importante que a forma. As questões de forma são feitas em #css, as de animação e dinâmicas interativas em JS, por tanto, as tags de estilo em html5 que ainda são aceitas tem uma tendencia a obsolescência.
+
+Aula 23 ---> Formatações Adicionais em html 
+
+Texto marcado -> Para marcar o texto eu uso a tag <mark> para adicionar uma cor diferente ao "marca texto" eu uso css ou dentro da tag <mark>, dessa forma: <mark style = "background-color">
+ou usando css tradicional criando uma parte para tag mark. A primeira forma é melhor quandoo existe apenas uma tag mark ou se a pessoa quiser deixar o texto todo colorido com marcadores diferentes a segunda melhor e mais indicada para usar quando se quer mudar a cor de marcação de todo o texto
+
+Aula 31 ---> Imagens Dinâmicas 
+
+
+

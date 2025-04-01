@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf') format('opentype');
+    font-size: normal;
+    font-weight: normal;
+}
+body {
+    background-color: rgb(191, 250, 205);
+    font-family: sans-serif;
+    
+}
+header {
+    background-image: linear-gradient(to bottom, rgb(27, 195, 32),rgb(12, 97, 12) ,rgb(2, 48, 2)) ;
+    font-size: 12px;
+    text-align: center;
+    color: white;
+}
+header > h1{
+    font-size: 18px;
+    padding-top: 15px;
+}
+header > p {
+    padding-bottom: 20px;
+}
+
+nav {
+    text-align: left;
+    padding: 10px;
+}
+nav > a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(100, 189, 121) ;
+    padding: 10px;
+}
+
+nav > a:hover {
+    background-color:  rgb(92, 178, 95);
+    color: white;
+    border-radius: 5px;
+}
+
+main{
+    background-color: white;
+    text-align: justify;
+    padding: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+
+article > h1,h2 {
+    font-family: 'idroid', sans-serif;
+    color: darkgreen;
+    padding: 5px;
+}
+
+article > h2 {
+    background-image: linear-gradient(to right, rgb(152, 195, 152), white);
+}
+
+ p > a {
+    text-decoration: none;
+    font-weight: bold;
+    background-color: rgb(155, 190, 155);
+    padding: 1px;
+    color: darkgreen;
+}
+
+strong {
+    color: darkgreen;
+}
+
+#video {
+    background-color: rgb(2, 48, 2);
+}
+
+
+
+#fim {
+    background-color: rgb(191, 250, 205) ;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+h3 {
+    background-color: darkgreen;
+    color: white;
+    padding: 5px;
+}
+
+.material-icons {
+    vertical-align: middle; /* Alinha o ícone com o texto */
+    margin-right: 10px; /* Adiciona espaço entre o ícone e o texto */
+    color: #38373b; /* Muda a cor do ícone */
+    font-size: 20px; 
+}
+ul {
+    list-style-type: none
+}
+
+footer {
+    background-color: darkgreen;
+    text-align: center;
+}

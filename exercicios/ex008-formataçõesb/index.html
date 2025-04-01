@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Códigos e Citações</title>
+</head>
+<body>
+    <h1>Outras Formatações</h1>
+    <h2>Código-Fonte e Pré-Formatação</h2>
+    <p> O comando <code>document.getElementById</code> é escrito em JavaScript</p>
+    <p>Podemos usar a tag CODE para colocar códigos e facilitar a leitura e
+         usar a tag PRE que faz uma pré formatação que leva em consideração todos os caracteres, 
+         incluindo espaços como abaixo:</p>
+    <pre>
+        <code>
+    let cor = "EU TE AMO"
+
+    function setup() {
+    createCanvas(windowWidth,windowHeight);
+    
+     }
+
+    function draw() {
+    //background(255);
+
+    //Style the text.
+    // textAlign(CENTER);
+    //textSize(20);
+
+    if (mouseIsPressed === true) {
+    
+    fill(255,0,0)
+    text(cor,mouseX,mouseY);
+    } 
+    else {
+        fill(0)
+        text("click",mouseX,mouseY)
+     }
+        
+    }
+
+
+        </code>
+    </pre>
+    <h2>Citações</h2>
+    <p>Como diz fulano de tal: <q>Àgua mole pedra dura tanto bate até que fura</q></p>
+    <h2>Citações completas</h2>
+    <p>Para fulano de tal:</p>
+    <blockquote>Aconteceu isso e isso e isso na história darevolução Russa e 
+        seus impactos na luta anticolonial de África</blockquote>    
+    <h2>Abreviações</h2>
+    <p>Estamo Aprendendo coisas em <abbr title=" HyperText Markup Language">HTML</abbr> 
+        e <abbr title="Cascading Style Sheets">CSS</abbr></p>
+        
+</body>
+</html>

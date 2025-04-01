@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links | links</title>
+    <style>
+        /* 
+        #  = id
+        .  = class
+        :  = pseudo-class
+        :: = pseudo-elemento
+        >  = children
+        */
+        body {
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        li {
+            margin: 12px;
+            color: rgb(255, 187, 0) ;
+        }
+
+        a {
+            color: rgb(255, 187, 0);
+            text-decoration: none;
+            border: 2px solid rgb(255, 187, 0) ;
+            border-radius: 20px;
+            padding: 2px;
+            
+           
+
+        }
+
+        a:hover {
+            background-color: rgb(255, 187, 0) ;
+            color: white;
+            box-shadow: 1px 1px 30px rgb(255, 187, 0);
+        }
+
+        a:active {
+            background-color: rgb(255, 106, 0);
+            text-decoration: line-through;
+            color: red;
+        }
+        a::after {
+            content: '    [lelo | lelo]';
+        }
+
+        .oo::before {
+            content: '[esse aqio te deixa de queixo caido]  ';
+        }
+
+        
+
+
+
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <li><a href="https://github.com/cabocloazul" target="_blank" class="oo">Repositório do GitHub</a></li>
+    <li><a href="https://vimeo.com/">Canal do Vimeo</a></li>
+    <li><a href="">site de Amarelo</a></li>
+    
+</body>
+</html>
