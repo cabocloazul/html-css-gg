@@ -1,5 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Monofett&family=Passion+One:wght@400;700;900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Monofett&family=Passion+One:wght@400;700;900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Sriracha&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: "Passion One", sans-serif; 
+    --fonte3: "Sriracha", cursive;
+}
+
 body, html {
     background-color: powderblue;
+    font-family: var(--fonte1);
 }
 
 * {
@@ -16,6 +27,8 @@ header {
 header > h1 {
     padding-top: 50px;
     font-variant: small-caps;
+    font-family: var(--fonte2);
+    font-size: 10vw;
 }
 
 header > p {
@@ -37,6 +50,8 @@ section {
     padding-bottom: 10vh;
     padding-left: 30px;
     line-height: 2em;
+    font-family: var(--fonte3);
+    font-size: 3.25vw;
 }
 
 .padrao {
@@ -51,7 +66,8 @@ section {
 
 .imagem > p {
     background-color: rgba(0, 0, 0, 0.252);
-    width: 200px;
+    display: inline-block;
+    padding: 5px;
 }
 
 footer {
